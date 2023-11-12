@@ -321,23 +321,18 @@ public class CartElements extends Methods{
 	public By lastName = By.id("com.nopstation.nopcommerce.nopstationcart:id/etLastName");
 	public By Email = By.id("com.nopstation.nopcommerce.nopstationcart:id/etEmail");
 	public By SelectCountry = By.id("com.nopstation.nopcommerce.nopstationcart:id/countrySpinner");
-	//scroll 139,1900,806,139
 	public By CountryName= By.xpath("//android.widget.TextView[@text=\"Bangladesh\"]");
 	public By SelectState = By.id("com.nopstation.nopcommerce.nopstationcart:id/stateSpinner");
 	public By StateName = By.xpath("//android.widget.TextView[@text=\"ঢাকা\"]");
 	public By Company = By.id("com.nopstation.nopcommerce.nopstationcart:id/etCompanyName");
 	public By City = By.id("com.nopstation.nopcommerce.nopstationcart:id/etCity");
-	//scroll 316, 1691,677,601
 	public By StreetAddress1 = By.id("com.nopstation.nopcommerce.nopstationcart:id/etStreetAddress");
 	public By ZipCOde = By.id("com.nopstation.nopcommerce.nopstationcart:id/etZipCode");
 	public By Number = By.id("com.nopstation.nopcommerce.nopstationcart:id/etPhone");
 	public By ContinueButton = By.id("com.nopstation.nopcommerce.nopstationcart:id/btnContinue");
 	public By NextDayAirVisibleOption = By.xpath("//android.widget.TextView[@text=\"Next Day Air\"]");
-	//Scroll 403, 1448,656, 833
 	public By ContinueButton2 =By.id("com.nopstation.nopcommerce.nopstationcart:id/btnContinue");
 	public By PaymentPageVisible = By.xpath("//android.widget.TextView[@text=\"bKash Payment ($20.00)\"]");
-	//Scrolling 149, 1743, 837, 90
-	//scrolling 226, 1736, 875, 188
 	public By CheckOrMoneyOrder = By.xpath("//android.widget.TextView[@text=\"Check / Money Order\"]");
 	public By PressContinue = By.id("com.nopstation.nopcommerce.nopstationcart:id/btnContinue");
 	public By PaymentInfoPageVisible = By.xpath("//android.widget.TextView[@text = \"Payment information\"]");

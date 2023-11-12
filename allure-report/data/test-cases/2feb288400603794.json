@@ -1,0 +1,338 @@
+{
+  "uid" : "2feb288400603794",
+  "name" : "Scenario 02 : Given: Mike go to shopping cart by clicking top cart icon\r\nWhen: Mike click checkout button from shopping cart page\r\nAnd: Mike select checkout as guest from shopping cart page\r\nThen: Mike input all the details in checkout billing details page and click continue\r\nAnd: Mike select \"Next Day Air\" as shipping method and click continue\r\nAnd: Mike select \"Check/Money Order\" as payment method and click continue\r\nAnd: Mike click next button on payment information page\r\nThen: Mike click confirm button to place the order\r\nAnd: Verify order place successfully with popup message \"Your order has been successfully processed!\"",
+  "fullName" : "TestCases.PlaceOrder.OrderReplace",
+  "historyId" : "ac2baefeeeb276cafbc2f5a5dffe5fb9",
+  "time" : {
+    "start" : 1699789768936,
+    "stop" : 1699789865770,
+    "duration" : 96834
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "SetupDriver",
+    "time" : {
+      "start" : 1699789754189,
+      "stop" : 1699789768743,
+      "duration" : 14554
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3d289aa9c3d5f063",
+      "name" : "CategoryList",
+      "source" : "3d289aa9c3d5f063.png",
+      "type" : "image/png",
+      "size" : 154860
+    }, {
+      "uid" : "c3a29c725bde9f0d",
+      "name" : "MasterBedroomPage",
+      "source" : "c3a29c725bde9f0d.png",
+      "type" : "image/png",
+      "size" : 567101
+    }, {
+      "uid" : "71875365a8af4bf3",
+      "name" : "QuantityAdded",
+      "source" : "71875365a8af4bf3.png",
+      "type" : "image/png",
+      "size" : 226699
+    }, {
+      "uid" : "a2934c4825c720c8",
+      "name" : "CartPage",
+      "source" : "a2934c4825c720c8.png",
+      "type" : "image/png",
+      "size" : 206351
+    }, {
+      "uid" : "2123492a6a857fc5",
+      "name" : "Details Input",
+      "source" : "2123492a6a857fc5.png",
+      "type" : "image/png",
+      "size" : 133740
+    }, {
+      "uid" : "524b3c79165eba85",
+      "name" : "Payment Details",
+      "source" : "524b3c79165eba85.png",
+      "type" : "image/png",
+      "size" : 318090
+    }, {
+      "uid" : "6aae71ddf5d0006",
+      "name" : "Confirmation message",
+      "source" : "6aae71ddf5d0006.png",
+      "type" : "image/png",
+      "size" : 159626
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1699789865950,
+      "stop" : 1699789866516,
+      "duration" : 566
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestCases.PlaceOrder"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCases.PlaceOrder"
+  }, {
+    "name" : "testMethod",
+    "value" : "OrderReplace"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases.PlaceOrder"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "8376@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a8d90b7fc446c362",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., databaseEnabled: false, desired: {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 5776660a9905, deviceScreenDensity: 408, deviceScreenSize: 1080x1920, deviceUDID: 5776660a9905, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 61, takesScreenshot: true, viewportRect: {height: 1859, left: 0, top: 61, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: b6a3c30a-aa1f-498c-9437-bc99f0bfe712\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text=\"Bangladesh\"]}",
+      "time" : {
+        "start" : 1699789630231,
+        "stop" : 1699789704249,
+        "duration" : 74018
+      }
+    }, {
+      "uid" : "c78f162ad053f543",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699788834212,
+        "stop" : 1699788938220,
+        "duration" : 104008
+      }
+    }, {
+      "uid" : "e509a083442c93ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699786945167,
+        "stop" : 1699787044129,
+        "duration" : 98962
+      }
+    }, {
+      "uid" : "b7ccd21cc1daa2fd",
+      "status" : "skipped",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe -P 5037 -s 5776660a9905 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device '5776660a9905' not found\r\n\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe -P 5037 -s 5776660a9905 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device '5776660a9905' not found\r\n\n    at getResponseForW3CError (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1699786875133,
+        "stop" : 1699786875135,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "5c79ccc39475520e",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., databaseEnabled: false, desired: {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 5776660a9905, deviceScreenDensity: 408, deviceScreenSize: 1080x1920, deviceUDID: 5776660a9905, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 61, takesScreenshot: true, viewportRect: {height: 1859, left: 0, top: 61, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 0947363f-88f2-4d8b-bb1b-b1f1847e4575\n*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout[1]/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.view.ViewGroup[7]/android.widget.TextView}",
+      "time" : {
+        "start" : 1699786687876,
+        "stop" : 1699786718799,
+        "duration" : 30923
+      }
+    }, {
+      "uid" : "75b4d6dea409965",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., databaseEnabled: false, desired: {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 5776660a9905, deviceScreenDensity: 408, deviceScreenSize: 1080x1920, deviceUDID: 5776660a9905, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 61, takesScreenshot: true, viewportRect: {height: 1859, left: 0, top: 61, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: b27544c0-34df-473b-9f94-53027f1a2d3e\n*** Element info: {Using=id, value=com.nopstation.nopcommerce.nopstationcart:id/btnAccept}",
+      "time" : {
+        "start" : 1699786627916,
+        "stop" : 1699786648102,
+        "duration" : 20186
+      }
+    }, {
+      "uid" : "99ad2a09368c49ae",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., databaseEnabled: false, desired: {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 5776660a9905, deviceScreenDensity: 408, deviceScreenSize: 1080x1920, deviceUDID: 5776660a9905, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 61, takesScreenshot: true, viewportRect: {height: 1859, left: 0, top: 61, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 9e32c70d-f00a-463c-9827-966d17cdda06\n*** Element info: {Using=id, value=com.nopstation.nopcommerce.nopstationcart:id/btnAccept}",
+      "time" : {
+        "start" : 1699786424999,
+        "stop" : 1699786445813,
+        "duration" : 20814
+      }
+    }, {
+      "uid" : "a1e2d3b356ee9e86",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., databaseEnabled: false, desired: {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 5776660a9905, deviceScreenDensity: 408, deviceScreenSize: 1080x1920, deviceUDID: 5776660a9905, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 61, takesScreenshot: true, viewportRect: {height: 1859, left: 0, top: 61, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 86689d21-662f-400c-b976-48b958a25454\n*** Element info: {Using=id, value=com.nopstation.nopcommerce.nopstationcart:id/btnAccept}",
+      "time" : {
+        "start" : 1699785949065,
+        "stop" : 1699785969151,
+        "duration" : 20086
+      }
+    }, {
+      "uid" : "5f1ca384f3e51ad1",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., databaseEnabled: false, desired: {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 5776660a9905, deviceScreenDensity: 408, deviceScreenSize: 1080x1920, deviceUDID: 5776660a9905, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 61, takesScreenshot: true, viewportRect: {height: 1859, left: 0, top: 61, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: f272ce82-f1fe-4bd1-8856-d84df9c92ea2\n*** Element info: {Using=id, value=com.nopstation.nopcommerce.nopstationcart:id/btnAccept}",
+      "time" : {
+        "start" : 1699785839117,
+        "stop" : 1699785859694,
+        "duration" : 20577
+      }
+    }, {
+      "uid" : "68240fbe9113d117",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699785543721,
+        "stop" : 1699785644161,
+        "duration" : 100440
+      }
+    }, {
+      "uid" : "9e0e4b9feb9a68f4",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., databaseEnabled: false, desired: {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 5776660a9905, deviceScreenDensity: 408, deviceScreenSize: 1080x1920, deviceUDID: 5776660a9905, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 61, takesScreenshot: true, viewportRect: {height: 1859, left: 0, top: 61, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: e126f25b-a860-4abf-9d32-a627c4c52a7c\n*** Element info: {Using=id, value=com.nopstation.nopcommerce.nopstationcart:id/btnAccept}",
+      "time" : {
+        "start" : 1699785432884,
+        "stop" : 1699785453497,
+        "duration" : 20613
+      }
+    }, {
+      "uid" : "e1cb0a10f77c6da8",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., databaseEnabled: false, desired: {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 5776660a9905, deviceScreenDensity: 408, deviceScreenSize: 1080x1920, deviceUDID: 5776660a9905, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 61, takesScreenshot: true, viewportRect: {height: 1859, left: 0, top: 61, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 0b23d87a-c604-43cd-9276-e8f39482e668\n*** Element info: {Using=xpath, value=//android.widget.ImageButton[@content-desc=\"NopStation Cart\"]}",
+      "time" : {
+        "start" : 1699784775121,
+        "stop" : 1699784804679,
+        "duration" : 29558
+      }
+    }, {
+      "uid" : "478e5c940300f680",
+      "status" : "skipped",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.nopstation.nopcommerce.nopstationcart' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command 'C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe -P 5037 -s 5776660a9905 shell am start -W -n com.nopstation.nopcommerce.nopstationcart/com.bs.ecommerce.main.SplashScreenActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.nopstation.nopcommerce.nopstationcart' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command 'C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe -P 5037 -s 5776660a9905 shell am start -W -n com.nopstation.nopcommerce.nopstationcart/com.bs.ecommerce.main.SplashScreenActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability\n    at getResponseForW3CError (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1699784685683,
+        "stop" : 1699784685685,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "300f61e133e2cc7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699783705055,
+        "stop" : 1699783804022,
+        "duration" : 98967
+      }
+    }, {
+      "uid" : "4d043e675ddfcf74",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., databaseEnabled: false, desired: {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 5776660a9905, deviceScreenDensity: 408, deviceScreenSize: 1080x1920, deviceUDID: 5776660a9905, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 61, takesScreenshot: true, viewportRect: {height: 1859, left: 0, top: 61, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 7ec29864-dd25-4b47-9a0b-bf151fe9b02d\n*** Element info: {Using=id, value=com.nopstation.nopcommerce.nopstationcart:id/btnAccept}",
+      "time" : {
+        "start" : 1699783272623,
+        "stop" : 1699783292732,
+        "duration" : 20109
+      }
+    }, {
+      "uid" : "13db15c43cea5c8c",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., databaseEnabled: false, desired: {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 5776660a9905, deviceScreenDensity: 408, deviceScreenSize: 1080x1920, deviceUDID: 5776660a9905, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 61, takesScreenshot: true, viewportRect: {height: 1859, left: 0, top: 61, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 193fa986-c35a-4fc2-af0f-ca6b7b9228b3\n*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout[1]/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.view.ViewGroup[7]/android.widget.TextView}",
+      "time" : {
+        "start" : 1699783204493,
+        "stop" : 1699783233252,
+        "duration" : 28759
+      }
+    }, {
+      "uid" : "5fd0cf9d9344431b",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., databaseEnabled: false, desired: {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 5776660a9905, deviceScreenDensity: 408, deviceScreenSize: 1080x1920, deviceUDID: 5776660a9905, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 61, takesScreenshot: true, viewportRect: {height: 1859, left: 0, top: 61, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: d1d884b2-c562-4bb4-ae37-b9c4e53da392\n*** Element info: {Using=id, value=com.nopstation.nopcommerce.nopstationcart:id/btnAddToCart}",
+      "time" : {
+        "start" : 1699783085954,
+        "stop" : 1699783136485,
+        "duration" : 50531
+      }
+    }, {
+      "uid" : "eb0fe6e8fff110f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699782729724,
+        "stop" : 1699782829030,
+        "duration" : 99306
+      }
+    }, {
+      "uid" : "e8e0393cf840b187",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.TextView[@text=\"bKash Payment ($20.00)\"] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1699777901924,
+        "stop" : 1699778038888,
+        "duration" : 136964
+      }
+    }, {
+      "uid" : "e082a19fcbce577",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., databaseEnabled: false, desired: {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 5776660a9905, deviceScreenDensity: 408, deviceScreenSize: 1080x1920, deviceUDID: 5776660a9905, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 61, takesScreenshot: true, viewportRect: {height: 1859, left: 0, top: 61, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 777f30f4-765b-4519-8e39-206444c4fcdc\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text=\"Bangladesh\"]}",
+      "time" : {
+        "start" : 1699776589501,
+        "stop" : 1699776664786,
+        "duration" : 75285
+      }
+    }, {
+      "uid" : "dc19488e8c5c419d",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., databaseEnabled: false, desired: {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 5776660a9905, deviceScreenDensity: 408, deviceScreenSize: 1080x1920, deviceUDID: 5776660a9905, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 61, takesScreenshot: true, viewportRect: {height: 1859, left: 0, top: 61, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 0e889948-1a50-401d-a18c-78da2a4bb850\n*** Element info: {Using=xpath, value=//android.widget.TextView[@text=\"Bangladesh\"]}",
+      "time" : {
+        "start" : 1699776056330,
+        "stop" : 1699776124589,
+        "duration" : 68259
+      }
+    }, {
+      "uid" : "cbd9866ae0872c1c",
+      "status" : "broken",
+      "statusDetails" : "Cannot perform TouchMove action at (616, 698)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., databaseEnabled: false, desired: {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 5776660a9905, deviceScreenDensity: 408, deviceScreenSize: 1080x1920, deviceUDID: 5776660a9905, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 61, takesScreenshot: true, viewportRect: {height: 1859, left: 0, top: 61, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: f9196044-50a4-4e4f-aed0-3769ecc5a57a",
+      "time" : {
+        "start" : 1699775997656,
+        "stop" : 1699776027652,
+        "duration" : 29996
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2feb288400603794.json",
+  "parameterValues" : [ ]
+}

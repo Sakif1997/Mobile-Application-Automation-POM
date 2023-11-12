@@ -1,0 +1,57 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Test",
+      "children" : [ {
+        "name" : "TestCases.AddProducts",
+        "children" : [ {
+          "name" : "Scenario01: Customer add products in his shopping cart\r\n\r\nGiven: Mike on home page after opening nopCart mobile app\r\nWhen: Mike click \"electronics\" from \"OUR CATEGORIES\" list from home page\r\nAnd: Mike click to \"Mattress Bedroom\" product details page\r\nAnd: Mike click plus button to increase Qty by \"2\"\r\nThen: Mike click add to cart button to add the product in his cart",
+          "uid" : "138718ad34f7249f",
+          "parentUid" : "72ff8fb8a81b63328cda6d1e3e54cf18",
+          "status" : "passed",
+          "time" : {
+            "start" : 1699786592866,
+            "stop" : 1699786627795,
+            "duration" : 34929
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "72ff8fb8a81b63328cda6d1e3e54cf18"
+      }, {
+        "name" : "TestCases.PlaceOrder",
+        "children" : [ {
+          "name" : "SetupDriver",
+          "uid" : "953b5e124ef9fb46",
+          "parentUid" : "22cec9e3446313368ddf760e1dbee163",
+          "status" : "broken",
+          "time" : {
+            "start" : 1699786874917,
+            "stop" : 1699786874924,
+            "duration" : 7
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "Scenario 02 : Given: Mike go to shopping cart by clicking top cart icon\r\nWhen: Mike click checkout button from shopping cart page\r\nAnd: Mike select checkout as guest from shopping cart page\r\nThen: Mike input all the details in checkout billing details page and click continue\r\nAnd: Mike select \"Next Day Air\" as shipping method and click continue\r\nAnd: Mike select \"Check/Money Order\" as payment method and click continue\r\nAnd: Mike click next button on payment information page\r\nThen: Mike click confirm button to place the order\r\nAnd: Verify order place successfully with popup message \"Your order has been successfully processed!\"",
+          "uid" : "2feb288400603794",
+          "parentUid" : "22cec9e3446313368ddf760e1dbee163",
+          "status" : "passed",
+          "time" : {
+            "start" : 1699789768936,
+            "stop" : 1699789865770,
+            "duration" : 96834
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "22cec9e3446313368ddf760e1dbee163"
+      } ],
+      "uid" : "7314231e84d67a341867b5c9d3f928d2"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ]
+}

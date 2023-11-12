@@ -1,0 +1,119 @@
+{
+  "uid" : "62b2f4359b6394c0",
+  "name" : "Scenario01: Customer add products in his shopping cart\r\n\r\nGiven: Mike on home page after opening nopCart mobile app\r\nWhen: Mike click \"electronics\" from \"OUR CATEGORIES\" list from home page\r\nAnd: Mike click to \"Mattress Bedroom\" product details page\r\nAnd: Mike click plus button to increase Qty by \"2\"\r\nThen: Mike click add to cart button to add the product in his cart",
+  "fullName" : "TestCases.AddProducts.addToCart",
+  "historyId" : "6a6b11c76eec33444ff6373745f58642",
+  "time" : {
+    "start" : 1699786382441,
+    "stop" : 1699786424835,
+    "duration" : 42394
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "SetupDriver",
+    "time" : {
+      "start" : 1699786364668,
+      "stop" : 1699786382239,
+      "duration" : 17571
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d66c70ff77555396",
+      "name" : "CategoryList",
+      "source" : "d66c70ff77555396.png",
+      "type" : "image/png",
+      "size" : 152156
+    }, {
+      "uid" : "557cb5701b43766",
+      "name" : "MasterBedroomPage",
+      "source" : "557cb5701b43766.png",
+      "type" : "image/png",
+      "size" : 604701
+    }, {
+      "uid" : "b0364421ca0bbbd0",
+      "name" : "QuantityAdded",
+      "source" : "b0364421ca0bbbd0.png",
+      "type" : "image/png",
+      "size" : 262579
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1699786445935,
+      "stop" : 1699786446589,
+      "duration" : 654
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestCases.AddProducts"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCases.AddProducts"
+  }, {
+    "name" : "testMethod",
+    "value" : "addToCart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases.AddProducts"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "8756@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62b2f4359b6394c0.json",
+  "parameterValues" : [ ]
+}

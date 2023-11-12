@@ -1,0 +1,57 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-HCMDDC7",
+    "children" : [ {
+      "name" : "12040@DESKTOP-HCMDDC7.main(1)",
+      "children" : [ {
+        "name" : "SetupDriver",
+        "uid" : "953b5e124ef9fb46",
+        "parentUid" : "a57bdf3429013810bc6ace9a4f371826",
+        "status" : "broken",
+        "time" : {
+          "start" : 1699786874917,
+          "stop" : 1699786874924,
+          "duration" : 7
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a57bdf3429013810bc6ace9a4f371826"
+    }, {
+      "name" : "8376@DESKTOP-HCMDDC7.main(1)",
+      "children" : [ {
+        "name" : "Scenario 02 : Given: Mike go to shopping cart by clicking top cart icon\r\nWhen: Mike click checkout button from shopping cart page\r\nAnd: Mike select checkout as guest from shopping cart page\r\nThen: Mike input all the details in checkout billing details page and click continue\r\nAnd: Mike select \"Next Day Air\" as shipping method and click continue\r\nAnd: Mike select \"Check/Money Order\" as payment method and click continue\r\nAnd: Mike click next button on payment information page\r\nThen: Mike click confirm button to place the order\r\nAnd: Verify order place successfully with popup message \"Your order has been successfully processed!\"",
+        "uid" : "2feb288400603794",
+        "parentUid" : "e50725f5a0eef58ee7b2a8254aafffa4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699789768936,
+          "stop" : 1699789865770,
+          "duration" : 96834
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e50725f5a0eef58ee7b2a8254aafffa4"
+    }, {
+      "name" : "10612@DESKTOP-HCMDDC7.main(1)",
+      "children" : [ {
+        "name" : "Scenario01: Customer add products in his shopping cart\r\n\r\nGiven: Mike on home page after opening nopCart mobile app\r\nWhen: Mike click \"electronics\" from \"OUR CATEGORIES\" list from home page\r\nAnd: Mike click to \"Mattress Bedroom\" product details page\r\nAnd: Mike click plus button to increase Qty by \"2\"\r\nThen: Mike click add to cart button to add the product in his cart",
+        "uid" : "138718ad34f7249f",
+        "parentUid" : "8d3839e821bf3e563b3c71bd24abc8ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699786592866,
+          "stop" : 1699786627795,
+          "duration" : 34929
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d3839e821bf3e563b3c71bd24abc8ee"
+    } ],
+    "uid" : "87177cfd81531c20dadd9d12dc55f190"
+  } ]
+}

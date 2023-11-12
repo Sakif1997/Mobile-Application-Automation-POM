@@ -1,0 +1,143 @@
+{
+  "uid" : "300f61e133e2cc7c",
+  "name" : "Scenario 02 : Given: Mike go to shopping cart by clicking top cart icon\r\nWhen: Mike click checkout button from shopping cart page\r\nAnd: Mike select checkout as guest from shopping cart page\r\nThen: Mike input all the details in checkout billing details page and click continue\r\nAnd: Mike select \"Next Day Air\" as shipping method and click continue\r\nAnd: Mike select \"Check/Money Order\" as payment method and click continue\r\nAnd: Mike click next button on payment information page\r\nThen: Mike click confirm button to place the order\r\nAnd: Verify order place successfully with popup message \"Your order has been successfully processed!\"",
+  "fullName" : "TestCases.PlaceOrder.OrderReplace",
+  "historyId" : "ac2baefeeeb276cafbc2f5a5dffe5fb9",
+  "time" : {
+    "start" : 1699783705055,
+    "stop" : 1699783804022,
+    "duration" : 98967
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "SetupDriver",
+    "time" : {
+      "start" : 1699783685298,
+      "stop" : 1699783704575,
+      "duration" : 19277
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3fb2f5c0aa405957",
+      "name" : "CategoryList",
+      "source" : "3fb2f5c0aa405957.png",
+      "type" : "image/png",
+      "size" : 151593
+    }, {
+      "uid" : "ea2b826c518a92b6",
+      "name" : "MasterBedroomPage",
+      "source" : "ea2b826c518a92b6.png",
+      "type" : "image/png",
+      "size" : 567100
+    }, {
+      "uid" : "6d9976ae3fd9ac4b",
+      "name" : "QuantityAdded",
+      "source" : "6d9976ae3fd9ac4b.png",
+      "type" : "image/png",
+      "size" : 228464
+    }, {
+      "uid" : "27a51afb1319fa1e",
+      "name" : "CartPage",
+      "source" : "27a51afb1319fa1e.png",
+      "type" : "image/png",
+      "size" : 234195
+    }, {
+      "uid" : "279915e349a9718b",
+      "name" : "Details Input",
+      "source" : "279915e349a9718b.png",
+      "type" : "image/png",
+      "size" : 133379
+    }, {
+      "uid" : "4e391c6bb3548dce",
+      "name" : "Payment Details",
+      "source" : "4e391c6bb3548dce.png",
+      "type" : "image/png",
+      "size" : 318179
+    }, {
+      "uid" : "3de08a0c56c83e0f",
+      "name" : "Confirmation message",
+      "source" : "3de08a0c56c83e0f.png",
+      "type" : "image/png",
+      "size" : 159537
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1699783804478,
+      "stop" : 1699783805582,
+      "duration" : 1104
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestCases.PlaceOrder"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCases.PlaceOrder"
+  }, {
+    "name" : "testMethod",
+    "value" : "OrderReplace"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases.PlaceOrder"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "14084@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "300f61e133e2cc7c.json",
+  "parameterValues" : [ ]
+}

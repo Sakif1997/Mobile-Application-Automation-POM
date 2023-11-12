@@ -1,0 +1,264 @@
+{
+  "uid" : "138718ad34f7249f",
+  "name" : "Scenario01: Customer add products in his shopping cart\r\n\r\nGiven: Mike on home page after opening nopCart mobile app\r\nWhen: Mike click \"electronics\" from \"OUR CATEGORIES\" list from home page\r\nAnd: Mike click to \"Mattress Bedroom\" product details page\r\nAnd: Mike click plus button to increase Qty by \"2\"\r\nThen: Mike click add to cart button to add the product in his cart",
+  "fullName" : "TestCases.AddProducts.addToCart",
+  "historyId" : "6a6b11c76eec33444ff6373745f58642",
+  "time" : {
+    "start" : 1699786592866,
+    "stop" : 1699786627795,
+    "duration" : 34929
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "SetupDriver",
+    "time" : {
+      "start" : 1699786575144,
+      "stop" : 1699786592638,
+      "duration" : 17494
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "882b22719644c606",
+      "name" : "CategoryList",
+      "source" : "882b22719644c606.png",
+      "type" : "image/png",
+      "size" : 152686
+    }, {
+      "uid" : "f2da00fd520fdd12",
+      "name" : "MasterBedroomPage",
+      "source" : "f2da00fd520fdd12.png",
+      "type" : "image/png",
+      "size" : 568253
+    }, {
+      "uid" : "451e00722e90e851",
+      "name" : "QuantityAdded",
+      "source" : "451e00722e90e851.png",
+      "type" : "image/png",
+      "size" : 230712
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1699786648196,
+      "stop" : 1699786648774,
+      "duration" : 578
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestCases.AddProducts"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCases.AddProducts"
+  }, {
+    "name" : "testMethod",
+    "value" : "addToCart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCases.AddProducts"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HCMDDC7"
+  }, {
+    "name" : "thread",
+    "value" : "10612@DESKTOP-HCMDDC7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "62b2f4359b6394c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699786382441,
+        "stop" : 1699786424835,
+        "duration" : 42394
+      }
+    }, {
+      "uid" : "8a6b96bb89a591ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699785916923,
+        "stop" : 1699785948951,
+        "duration" : 32028
+      }
+    }, {
+      "uid" : "fd0e238550417845",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699785806757,
+        "stop" : 1699785838974,
+        "duration" : 32217
+      }
+    }, {
+      "uid" : "223abff5a59e4564",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., databaseEnabled: false, desired: {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 5776660a9905, deviceScreenDensity: 408, deviceScreenSize: 1080x1920, deviceUDID: 5776660a9905, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 61, takesScreenshot: true, viewportRect: {height: 1859, left: 0, top: 61, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 3702a387-47ee-4078-9d48-9f56b9106a51\n*** Element info: {Using=id, value=com.nopstation.nopcommerce.nopstationcart:id/btnAccept}",
+      "time" : {
+        "start" : 1699785644498,
+        "stop" : 1699785664575,
+        "duration" : 20077
+      }
+    }, {
+      "uid" : "947b8e493144686a",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., databaseEnabled: false, desired: {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 5776660a9905, deviceScreenDensity: 408, deviceScreenSize: 1080x1920, deviceUDID: 5776660a9905, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 61, takesScreenshot: true, viewportRect: {height: 1859, left: 0, top: 61, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: e126f25b-a860-4abf-9d32-a627c4c52a7c\n*** Element info: {Using=id, value=com.nopstation.nopcommerce.nopstationcart:id/btnAccept}",
+      "time" : {
+        "start" : 1699785453652,
+        "stop" : 1699785473754,
+        "duration" : 20102
+      }
+    }, {
+      "uid" : "ea2175cccc0d0231",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699785212651,
+        "stop" : 1699785250660,
+        "duration" : 38009
+      }
+    }, {
+      "uid" : "d2a6869c385040fa",
+      "status" : "skipped",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.nopstation.nopcommerce.nopstationcart' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command 'C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe -P 5037 -s 5776660a9905 shell am start -W -n com.nopstation.nopcommerce.nopstationcart/com.bs.ecommerce.main.SplashScreenActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.nopstation.nopcommerce.nopstationcart' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command 'C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe -P 5037 -s 5776660a9905 shell am start -W -n com.nopstation.nopcommerce.nopstationcart/com.bs.ecommerce.main.SplashScreenActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability\n    at getResponseForW3CError (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1699784685753,
+        "stop" : 1699784685760,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "cf1a0787a14c6871",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699782120092,
+        "stop" : 1699782145676,
+        "duration" : 25584
+      }
+    }, {
+      "uid" : "8924e45d5fbedb6f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: com.nopstation.nopcommerce.nopstationcart:id/image_view (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1699782036760,
+        "stop" : 1699782097920,
+        "duration" : 61160
+      }
+    }, {
+      "uid" : "b3a48f9281bd2b48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699781818763,
+        "stop" : 1699781851347,
+        "duration" : 32584
+      }
+    }, {
+      "uid" : "4678dcf69450ef34",
+      "status" : "broken",
+      "statusDetails" : "The element 'By.id: com.nopstation.nopcommerce.nopstationcart:id/btnAddToCart' does not exist in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-HCMDDC7', ip: '172.29.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., databaseEnabled: false, desired: {appActivity: com.bs.ecommerce.main.Splas..., appPackage: com.nopstation.nopcommerce...., platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 5776660a9905, deviceScreenDensity: 408, deviceScreenSize: 1080x1920, deviceUDID: 5776660a9905, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.55, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 61, takesScreenshot: true, viewportRect: {height: 1859, left: 0, top: 61, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 61f0886e-472c-4b4f-aa04-610a60ef9dfc",
+      "time" : {
+        "start" : 1699781506273,
+        "stop" : 1699781538572,
+        "duration" : 32299
+      }
+    }, {
+      "uid" : "b3a976f078fa7e2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699780427217,
+        "stop" : 1699780469126,
+        "duration" : 41909
+      }
+    }, {
+      "uid" : "d9a22859ace24d4b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: com.nopstation.nopcommerce.nopstationcart:id/image_view (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1699780321587,
+        "stop" : 1699780381755,
+        "duration" : 60168
+      }
+    }, {
+      "uid" : "a03a90e0c36764f9",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: com.nopstation.nopcommerce.nopstationcart:id/image_view (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1699780234334,
+        "stop" : 1699780297162,
+        "duration" : 62828
+      }
+    }, {
+      "uid" : "a345825e72e97c2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699780153804,
+        "stop" : 1699780205764,
+        "duration" : 51960
+      }
+    }, {
+      "uid" : "9fa7029c1b9a980b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699762749519,
+        "stop" : 1699762781382,
+        "duration" : 31863
+      }
+    }, {
+      "uid" : "6d5c19df1f261689",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699762489394,
+        "stop" : 1699762524326,
+        "duration" : 34932
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "138718ad34f7249f.json",
+  "parameterValues" : [ ]
+}

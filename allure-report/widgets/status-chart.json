@@ -1,0 +1,31 @@
+[ {
+  "uid" : "953b5e124ef9fb46",
+  "name" : "SetupDriver",
+  "time" : {
+    "start" : 1699786874917,
+    "stop" : 1699786874924,
+    "duration" : 7
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2feb288400603794",
+  "name" : "Scenario 02 : Given: Mike go to shopping cart by clicking top cart icon\r\nWhen: Mike click checkout button from shopping cart page\r\nAnd: Mike select checkout as guest from shopping cart page\r\nThen: Mike input all the details in checkout billing details page and click continue\r\nAnd: Mike select \"Next Day Air\" as shipping method and click continue\r\nAnd: Mike select \"Check/Money Order\" as payment method and click continue\r\nAnd: Mike click next button on payment information page\r\nThen: Mike click confirm button to place the order\r\nAnd: Verify order place successfully with popup message \"Your order has been successfully processed!\"",
+  "time" : {
+    "start" : 1699789768936,
+    "stop" : 1699789865770,
+    "duration" : 96834
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "138718ad34f7249f",
+  "name" : "Scenario01: Customer add products in his shopping cart\r\n\r\nGiven: Mike on home page after opening nopCart mobile app\r\nWhen: Mike click \"electronics\" from \"OUR CATEGORIES\" list from home page\r\nAnd: Mike click to \"Mattress Bedroom\" product details page\r\nAnd: Mike click plus button to increase Qty by \"2\"\r\nThen: Mike click add to cart button to add the product in his cart",
+  "time" : {
+    "start" : 1699786592866,
+    "stop" : 1699786627795,
+    "duration" : 34929
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

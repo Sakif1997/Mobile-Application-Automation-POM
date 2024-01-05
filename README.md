@@ -46,6 +46,9 @@ adb shell dumpsys window windows | find "mCurrentFocus"
 ```  
 Picture for demonstration  
 ![device connected and current stats](https://github.com/Sakif1997/Mobile-Application-Automation-POM/assets/45315685/3af1331e-96db-438b-be89-a8b7e6d086e8)
+ or  
+ ![new](https://github.com/Sakif1997/Mobile-Application-Automation-POM/assets/45315685/19a37421-d673-4d93-ad76-9dee75b843cf)
+
   
 Launch Appium Server Gui and Appium Inspector from the Appium Desktop application.  
 Fillup Remote Path and Desired Capabilities Following from CMD: Instructions showed in image  

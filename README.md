@@ -42,7 +42,7 @@ adb devices
 Then press Enter
 Another Important instruction to get application location just give a command below and tap to the app and press enter immediately
 ```ruby
-adb shell dumpsys window | find "mCurrentFocus"
+adb shell dumpsys window windows | find "mCurrentFocus"
 ```  
 Picture for demonstration  
 ![device connected and current stats](https://github.com/Sakif1997/Mobile-Application-Automation-POM/assets/45315685/3af1331e-96db-438b-be89-a8b7e6d086e8)

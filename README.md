@@ -1,7 +1,7 @@
 
 # Mobile App Automation
 
-This project is for end-to-end testing of the [Download APK File](https://drive.google.com/file/d/1nUfd53CBXU2eYFbIkkWvPlmfXjN136bu/view?usp=drive_link)  Android application using the Page Object Model (POM) pattern. The following testing procedure will cover a wide range of functionalities, including Add Item to Cart,Proceed to Checkout,Choose Guest Checkout, Enter Shipping Information, Proceed to Payment,Enter Payment Details,Place an order and verify the order confirmation.
+This project is for end-to-end testing of the [Download APK File](https://drive.google.com/file/d/1nUfd53CBXU2eYFbIkkWvPlmfXjN136bu/view?usp=drive_link)  Mobile application using the Page Object Model (POM) pattern. The following testing procedure will cover a wide range of functionalities, including Add Item to Cart,Proceed to Checkout,Choose Guest Checkout, Enter Shipping Information, Proceed to Payment,Enter Payment Details,Place an order and verify the order confirmation.
 
 
 
